@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base{
+    body{
+        min-height: 100vh;
+        background-color: white;
+       color: black;
+    
+    }
+}
 @font-face {
     font-family: gilroy;
     src: url(src\assets\font\Gilroy-Bold-Rupee.ttf);
@@ -13,19 +21,10 @@
    
 
 }
-body{
-    min-height: 100vh;
-    background-color: white;
-   color: black;
-    
-}
-.heit{
-    height: calc(100vh - 17vh);
-}
 
-.location{
-  position: absalute;
-}
+
+
+
 .container-dishes{
     height:150px;
     width:150px;

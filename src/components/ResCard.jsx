@@ -1,29 +1,43 @@
-import React from 'react'
-
-
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar, faIndianRupeeSign } from '@fortawesome/free-solid-svg-icons';
+import { data } from '../../public/restaurants.json'; 
 function ResCard() {
-   
-   
+
+
   return (
-    <>
-    <div id="res" class="bg-green-100 border-2 border-black rounded-xl w-1/2 p-2 flex justify-between">
-        <div class="col1 flex flex-col justify-center w-3/4">
-            <div class="flex items-center">
-                <div class="name font-bold text-lg mr-4">Sagar Gaire</div>
-                <div class="border-2 border-gray-500 bg-black text-white rounded w-12 text-sm text-center flex items-center justify-center px-2">
-                    <i class="ri-star-smile-fill text-yellow-400 pr-1"></i> 4.7
-                </div>
-            </div>
-            <div class="amt text-lg font-semibold mb-2">Rs. 199</div>
-            <div class="desc text-sm">A hot, crispy crust topped with melted cheese, tangy tomato sauce and your favorite savory toppings.</div>
+    <div className='bg-white p-4 sm:p-6 rounded-lg shadow-lg flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 max-w-4xl mx-auto'>
+      
+      <div className="flex-1 mb-4 sm:mb-0">
+        <h1 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">{data.name}</h1>
+        <h2 className="text-lg sm:text-xl font-semibold text-gray-600 mb-1">
+          <FontAwesomeIcon icon={faIndianRupeeSign} style={{color: "#4b5563", height:"19px", marginRight: '0.5rem'}} /> 
+          250
+        </h2>
+        <p className="text-sm text-yellow-500 font-semibold mb-4">
+          Rating: 
+          <FontAwesomeIcon icon={faStar} style={{ color: "#eab308", marginLeft: '0.5rem' }} /> 
+          (4.5)
+        </p>
+        <div className="text-gray-600 text-sm sm:text-base">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quae omnis at nostrum culpa tempora beatae quos earum porro nobis.</p>
         </div>
-        <div class="col2 flex flex-col items-center w-1/4">
-            <img class="w-32 h-28 shadow-2xl mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeo_JMT1ZvwUNMHneItLQcNgYbwRsSs2mqYA&s" alt="food image"/>
-            <button id='btn' class="bg-green-500 text-white px-3 py-1 rounded ">ADD</button>
+      </div>
+
+      <div className="sm:ml-4 flex flex-col items-center sm:items-end">
+        <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-lg overflow-hidden shadow-md mb-3">
+          <img 
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/4ea18bd1ae39fe6d1b65a695028aefe8" 
+            alt="Chicken Biryani" 
+            className="w-full h-full object-cover"
+          />
         </div>
+        <button className='self-center px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 focus:outline-none'>
+          Add
+        </button>
+      </div>
     </div>
-    </>
-  )
+  );
 }
 
-export default ResCard
+export default ResCard;

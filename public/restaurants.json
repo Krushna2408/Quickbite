@@ -1,0 +1,484 @@
+[
+    {
+      "id": 1,
+      "name": "Zayka Bhopali",
+      "rating": 4.7,
+      "delivery_time": "30 mins",
+      "items": [
+        { "item": "Paneer Butter Masala", "price": 250 },
+        { "item": "Chicken Biryani", "price": 300 },
+        { "item": "Dal Makhani", "price": 200 },
+        { "item": "Butter Naan", "price": 40 },
+        { "item": "Mutton Korma", "price": 350 },
+        { "item": "Veg Pulao", "price": 150 },
+        { "item": "Kadhai Paneer", "price": 260 },
+        { "item": "Roti", "price": 20 },
+        { "item": "Tandoori Chicken", "price": 400 },
+        { "item": "Gulab Jamun", "price": 50 },
+        { "item": "Chicken Tikka", "price": 280 },
+        { "item": "Aloo Paratha", "price": 120 },
+        { "item": "Mutton Biryani", "price": 400 },
+        { "item": "Paneer Tikka", "price": 220 },
+        { "item": "Vegetable Biryani", "price": 180 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Manohar Dairy & Restaurant",
+      "rating": 4.6,
+      "delivery_time": "20 mins",
+      "items": [
+        { "item": "Chole Bhature", "price": 150 },
+        { "item": "Rasgulla", "price": 50 },
+        { "item": "Kaju Katli", "price": 600 },
+        { "item": "Samosa", "price": 20 },
+        { "item": "Dhokla", "price": 100 },
+        { "item": "Rajma Chawal", "price": 180 },
+        { "item": "Paneer Sandwich", "price": 80 },
+        { "item": "Aloo Tikki", "price": 60 },
+        { "item": "Lassi", "price": 70 },
+        { "item": "Veg Pulao", "price": 140 },
+        { "item": "Malai Kofta", "price": 250 },
+        { "item": "Veg Thali", "price": 220 },
+        { "item": "Masala Chai", "price": 30 },
+        { "item": "Dosa", "price": 120 },
+        { "item": "Kheer", "price": 80 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bapu Ki Kutia",
+      "rating": 4.4,
+      "delivery_time": "25 mins",
+      "items": [
+        { "item": "Masala Dosa", "price": 120 },
+        { "item": "Idli Sambhar", "price": 100 },
+        { "item": "Vada", "price": 80 },
+        { "item": "Sambar Vada", "price": 110 },
+        { "item": "Paneer Dosa", "price": 150 },
+        { "item": "Uttapam", "price": 130 },
+        { "item": "Pongal", "price": 140 },
+        { "item": "Onion Dosa", "price": 140 },
+        { "item": "Rava Idli", "price": 90 },
+        { "item": "Set Dosa", "price": 160 },
+        { "item": "Filter Coffee", "price": 50 },
+        { "item": "Mysore Pak", "price": 70 },
+        { "item": "Lemon Rice", "price": 110 },
+        { "item": "Curd Rice", "price": 120 },
+        { "item": "Medu Vada", "price": 100 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Under The Mango Tree",
+      "rating": 4.5,
+      "delivery_time": "35 mins",
+      "items": [
+        { "item": "Grilled Sandwich", "price": 180 },
+        { "item": "Cold Coffee", "price": 120 },
+        { "item": "Pasta Alfredo", "price": 250 },
+        { "item": "Veg Burger", "price": 150 },
+        { "item": "French Fries", "price": 100 },
+        { "item": "Mojito", "price": 80 },
+        { "item": "Paneer Tikka Wrap", "price": 200 },
+        { "item": "Hakka Noodles", "price": 220 },
+        { "item": "Pizza Margherita", "price": 280 },
+        { "item": "Veg Spring Rolls", "price": 140 },
+        { "item": "Choco Lava Cake", "price": 100 },
+        { "item": "Club Sandwich", "price": 200 },
+        { "item": "Mushroom Soup", "price": 150 },
+        { "item": "Paneer Shawarma", "price": 190 },
+        { "item": "Brownie with Ice Cream", "price": 170 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sharma and Vishnu Tea Stall",
+      "rating": 4.8,
+      "delivery_time": "15 mins",
+      "items": [
+        { "item": "Masala Chai", "price": 20 },
+        { "item": "Samosa", "price": 15 },
+        { "item": "Poha", "price": 30 },
+        { "item": "Jalebi", "price": 50 },
+        { "item": "Bread Pakora", "price": 40 },
+        { "item": "Chana Chaat", "price": 60 },
+        { "item": "Tea", "price": 15 },
+        { "item": "Patties", "price": 30 },
+        { "item": "Kachori", "price": 25 },
+        { "item": "Lemon Tea", "price": 30 },
+        { "item": "Chole Bhature", "price": 120 },
+        { "item": "Aloo Paratha", "price": 100 },
+        { "item": "Paneer Paratha", "price": 150 },
+        { "item": "Dhokla", "price": 80 },
+        { "item": "Chilli Potato", "price": 140 }
+      ]
+    },
+    
+    {
+      "id": 6,
+      "name": "Sagar Gaire",
+      "rating": 4.6,
+      "delivery_time": "20 mins",
+      "items": [
+        { "item": "Veg Burger", "price": 90 },
+        { "item": "Paneer Burger", "price": 130 },
+        { "item": "Cheese Pizza", "price": 180 },
+        { "item": "Veg Roll", "price": 100 },
+        { "item": "Paneer Roll", "price": 120 },
+        { "item": "Cheese Sandwich", "price": 140 },
+        { "item": "Veg Sandwich", "price": 120 },
+        { "item": "French Fries", "price": 80 },
+        { "item": "Veg Fried Rice", "price": 160 },
+        { "item": "Hakka Noodles", "price": 170 },
+        { "item": "Cold Coffee", "price": 80 },
+        { "item": "Paneer Tikka", "price": 200 },
+        { "item": "Choco Shake", "price": 90 },
+        { "item": "Veg Manchurian", "price": 150 },
+        { "item": "Garlic Bread", "price": 100 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Zaika Restaurant",
+      "rating": 4.3,
+      "delivery_time": "28 mins",
+      "items": [
+        { "item": "Chicken Butter Masala", "price": 320 },
+        { "item": "Paneer Bhurji", "price": 220 },
+        { "item": "Naan", "price": 30 },
+        { "item": "Fish Tikka", "price": 400 },
+        { "item": "Kofta Curry", "price": 250 },
+        { "item": "Veg Biryani", "price": 180 },
+        { "item": "Mutton Curry", "price": 380 },
+        { "item": "Dal Fry", "price": 150 },
+        { "item": "Chicken Lollipop", "price": 240 },
+        { "item": "Butter Chicken", "price": 350 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Taste of South",
+      "rating": 4.2,
+      "delivery_time": "22 mins",
+      "items": [
+        { "item": "Plain Dosa", "price": 100 },
+        { "item": "Masala Dosa", "price": 120 },
+        { "item": "Uttapam", "price": 130 },
+        { "item": "Pesarattu", "price": 140 },
+        { "item": "Medu Vada", "price": 90 },
+        { "item": "Onion Uttapam", "price": 150 },
+        { "item": "Lemon Rice", "price": 110 },
+        { "item": "Rava Idli", "price": 80 },
+        { "item": "Coconut Chutney", "price": 40 },
+        { "item": "Filter Coffee", "price": 50 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Spice Villa",
+      "rating": 4.5,
+      "delivery_time": "30 mins",
+      "items": [
+        { "item": "Paneer Lababdar", "price": 280 },
+        { "item": "Chicken Korma", "price": 350 },
+        { "item": "Mutton Rogan Josh", "price": 400 },
+        { "item": "Biryani", "price": 250 },
+        { "item": "Palak Paneer", "price": 240 },
+        { "item": "Aloo Gobhi", "price": 180 },
+        { "item": "Butter Naan", "price": 50 },
+        { "item": "Tandoori Chicken", "price": 380 },
+        { "item": "Roti", "price": 20 },
+        { "item": "Lassi", "price": 60 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Urban Dhaba",
+      "rating": 4.7,
+      "delivery_time": "25 mins",
+      "items": [
+        { "item": "Chicken Tandoori", "price": 360 },
+        { "item": "Paneer Tikka", "price": 260 },
+        { "item": "Butter Chicken", "price": 320 },
+        { "item": "Rajma Chawal", "price": 160 },
+        { "item": "Dal Tadka", "price": 140 },
+        { "item": "Tawa Roti", "price": 15 },
+        { "item": "Fish Curry", "price": 380 },
+        { "item": "Mutton Seekh Kebab", "price": 320 },
+        { "item": "Jeera Rice", "price": 100 },
+        { "item": "Veg Pulao", "price": 120 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Chaat Bazaar",
+      "rating": 4.4,
+      "delivery_time": "18 mins",
+      "items": [
+        { "item": "Pani Puri", "price": 40 },
+        { "item": "Aloo Tikki Chaat", "price": 80 },
+        { "item": "Papdi Chaat", "price": 70 },
+        { "item": "Dahi Bhalla", "price": 90 },
+        { "item": "Sev Puri", "price": 60 },
+        { "item": "Samosa Chaat", "price": 50 },
+        { "item": "Bhel Puri", "price": 50 },
+        { "item": "Raj Kachori", "price": 100 },
+        { "item": "Dhokla", "price": 80 },
+        { "item": "Jalebi", "price": 60 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Pizza Planet",
+      "rating": 4.6,
+      "delivery_time": "32 mins",
+      "items": [
+        { "item": "Margherita Pizza", "price": 250 },
+        { "item": "Pepperoni Pizza", "price": 300 },
+        { "item": "Veg Supreme Pizza", "price": 280 },
+        { "item": "BBQ Chicken Pizza", "price": 320 },
+        { "item": "Cheese Burst Pizza", "price": 270 },
+        { "item": "Paneer Pizza", "price": 260 },
+        { "item": "Garlic Bread", "price": 80 },
+        { "item": "Chocolate Pizza", "price": 220 },
+        { "item": "Classic Veg Pizza", "price": 240 },
+        { "item": "Mushroom Pizza", "price": 270 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Healthy Bites",
+      "rating": 4.5,
+      "delivery_time": "20 mins",
+      "items": [
+        { "item": "Greek Salad", "price": 180 },
+        { "item": "Quinoa Bowl", "price": 220 },
+        { "item": "Avocado Toast", "price": 150 },
+        { "item": "Fruit Bowl", "price": 120 },
+        { "item": "Vegan Wrap", "price": 200 },
+        { "item": "Smoothie Bowl", "price": 160 },
+        { "item": "Hummus with Veggies", "price": 130 },
+        { "item": "Oatmeal", "price": 100 },
+        { "item": "Protein Shake", "price": 180 },
+        { "item": "Grilled Chicken Salad", "price": 250 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "The Great Indian Thali",
+      "rating": 4.7,
+      "delivery_time": "40 mins",
+      "items": [
+        { "item": "Veg Thali", "price": 350 },
+        { "item": "Special Rajasthani Thali", "price": 400 },
+        { "item": "Gujarati Thali", "price": 370 },
+        { "item": "South Indian Thali", "price": 320 },
+        { "item": "Punjabi Thali", "price": 380 },
+        { "item": "Dal Bati Churma", "price": 220 },
+        { "item": "Kadhi Chawal", "price": 180 },
+        { "item": "Aloo Paratha Thali", "price": 250 },
+        { "item": "Paneer Paratha Thali", "price": 270 },
+        { "item": "Puri Bhaji Thali", "price": 200 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Burger Town",
+      "rating": 4.3,
+      "delivery_time": "15 mins",
+      "items": [
+        { "item": "Classic Veg Burger", "price": 120 },
+        { "item": "Chicken Burger", "price": 150 },
+        { "item": "Double Cheese Burger", "price": 180 },
+        { "item": "Spicy Paneer Burger", "price": 140 },
+        { "item": "Grilled Chicken Burger", "price": 200 },
+        { "item": "Fish Burger", "price": 220 },
+        { "item": "French Fries", "price": 80 },
+        { "item": "Onion Rings", "price": 70 },
+        { "item": "Chicken Nuggets", "price": 130 },
+        { "item": "Chocolate Shake", "price": 100 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Tandoori Junction",
+      "rating": 4.5,
+      "delivery_time": "25 mins",
+      "items": [
+        { "item": "Tandoori Chicken", "price": 300 },
+        { "item": "Chicken Seekh Kebab", "price": 250 },
+        { "item": "Paneer Tikka", "price": 220 },
+        { "item": "Mutton Kebab", "price": 350 },
+        { "item": "Tandoori Roti", "price": 30 },
+        { "item": "Butter Naan", "price": 40 },
+        { "item": "Garlic Naan", "price": 50 },
+        { "item": "Chicken Malai Tikka", "price": 280 },
+        { "item": "Fish Tikka", "price": 320 },
+        { "item": "Tandoori Prawns", "price": 400 }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Chinese Wok",
+      "rating": 4.6,
+      "delivery_time": "30 mins",
+      "items": [
+        { "item": "Hakka Noodles", "price": 180 },
+        { "item": "Veg Manchurian", "price": 160 },
+        { "item": "Chicken Manchurian", "price": 200 },
+        { "item": "Fried Rice", "price": 150 },
+        { "item": "Spring Rolls", "price": 120 },
+        { "item": "Chilli Chicken", "price": 250 },
+        { "item": "Schezwan Noodles", "price": 200 },
+        { "item": "Momos", "price": 100 },
+        { "item": "Honey Chilli Potato", "price": 140 },
+        { "item": "Kung Pao Chicken", "price": 280 }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Italiano Delight",
+      "rating": 4.7,
+      "delivery_time": "35 mins",
+      "items": [
+        { "item": "Spaghetti Aglio e Olio", "price": 250 },
+        { "item": "Penne Arrabiata", "price": 230 },
+        { "item": "Lasagna", "price": 300 },
+        { "item": "Margherita Pizza", "price": 280 },
+        { "item": "Four Cheese Pizza", "price": 350 },
+        { "item": "Bruschetta", "price": 150 },
+        { "item": "Fettuccine Alfredo", "price": 260 },
+        { "item": "Garlic Bread", "price": 100 },
+        { "item": "Tiramisu", "price": 180 },
+        { "item": "Panna Cotta", "price": 160 }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Sushi World",
+      "rating": 4.8,
+      "delivery_time": "40 mins",
+      "items": [
+        { "item": "California Roll", "price": 300 },
+        { "item": "Spicy Tuna Roll", "price": 350 },
+        { "item": "Salmon Sashimi", "price": 400 },
+        { "item": "Avocado Roll", "price": 280 },
+        { "item": "Dragon Roll", "price": 380 },
+        { "item": "Eel Sushi", "price": 420 },
+        { "item": "Miso Soup", "price": 120 },
+        { "item": "Tempura", "price": 260 },
+        { "item": "Edamame", "price": 150 },
+        { "item": "Seaweed Salad", "price": 200 }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Mexican Fiesta",
+      "rating": 4.4,
+      "delivery_time": "28 mins",
+      "items": [
+        { "item": "Chicken Tacos", "price": 180 },
+        { "item": "Beef Burrito", "price": 220 },
+        { "item": "Veg Quesadilla", "price": 160 },
+        { "item": "Nachos with Salsa", "price": 150 },
+        { "item": "Chicken Enchiladas", "price": 240 },
+        { "item": "Guacamole", "price": 100 },
+        { "item": "Churros", "price": 120 },
+        { "item": "Veg Tacos", "price": 160 },
+        { "item": "Beef Fajitas", "price": 260 },
+        { "item": "Mexican Rice", "price": 140 }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Biryani Junction",
+      "rating": 4.6,
+      "delivery_time": "32 mins",
+      "items": [
+        { "item": "Hyderabadi Biryani", "price": 300 },
+        { "item": "Lucknowi Biryani", "price": 320 },
+        { "item": "Chicken Biryani", "price": 280 },
+        { "item": "Mutton Biryani", "price": 350 },
+        { "item": "Veg Biryani", "price": 220 },
+        { "item": "Egg Biryani", "price": 250 },
+        { "item": "Paneer Biryani", "price": 260 },
+        { "item": "Fish Biryani", "price": 370 },
+        { "item": "Biryani with Raita", "price": 240 },
+        { "item": "Biryani Combo", "price": 400 }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "BBQ Nation",
+      "rating": 4.7,
+      "delivery_time": "45 mins",
+      "items": [
+        { "item": "BBQ Chicken Wings", "price": 280 },
+        { "item": "Grilled Fish", "price": 320 },
+        { "item": "Paneer Skewers", "price": 250 },
+        { "item": "Grilled Vegetables", "price": 200 },
+        { "item": "BBQ Prawns", "price": 350 },
+        { "item": "Lamb Chops", "price": 400 },
+        { "item": "BBQ Ribs", "price": 450 },
+        { "item": "Tandoori Chicken", "price": 300 },
+        { "item": "Chicken Sausages", "price": 220 },
+        { "item": "BBQ Veg Platter", "price": 240 }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Kebab Factory",
+      "rating": 4.5,
+      "delivery_time": "22 mins",
+      "items": [
+        { "item": "Chicken Seekh Kebab", "price": 250 },
+        { "item": "Mutton Seekh Kebab", "price": 300 },
+        { "item": "Paneer Kebab", "price": 200 },
+        { "item": "Shami Kebab", "price": 260 },
+        { "item": "Chicken Malai Kebab", "price": 280 },
+        { "item": "Tandoori Prawns", "price": 320 },
+        { "item": "Fish Tikka", "price": 290 },
+        { "item": "Lamb Kebab", "price": 350 },
+        { "item": "Veg Seekh Kebab", "price": 180 },
+        { "item": "Mixed Kebab Platter", "price": 450 }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Dessert Haven",
+      "rating": 4.8,
+      "delivery_time": "20 mins",
+      "items": [
+        { "item": "Chocolate Brownie", "price": 150 },
+        { "item": "Cheesecake", "price": 200 },
+        { "item": "Red Velvet Cake", "price": 220 },
+        { "item": "Ice Cream Sundae", "price": 180 },
+        { "item": "Tiramisu", "price": 160 },
+        { "item": "Chocolate Fondant", "price": 170 },
+        { "item": "Fruit Tart", "price": 140 },
+        { "item": "Creme Brulee", "price": 190 },
+        { "item": "Macarons", "price": 120 },
+        { "item": "Cupcakes", "price": 100 }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Pasta Palace",
+      "rating": 4.5,
+      "delivery_time": "30 mins",
+      "items": [
+        { "item": "Penne Arrabiata", "price": 230 },
+        { "item": "Spaghetti Carbonara", "price": 250 },
+        { "item": "Fettuccine Alfredo", "price": 240 },
+        { "item": "Pesto Pasta", "price": 260 },
+        { "item": "Ravioli", "price": 280 },
+        { "item": "Lasagna", "price": 300 },
+        { "item": "Garlic Bread", "price": 100 },
+        { "item": "Minestrone Soup", "price": 140 },
+        { "item": "Bruschetta", "price": 150 },
+        { "item": "Tiramisu", "price": 180 }
+      ]
+    }
+  ]
+  

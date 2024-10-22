@@ -13,7 +13,7 @@ function Cart() {
        
         <div className="flex flex-col justify-center items-center ">
           <p className="text-xl font-semibold mb-2">Your cart is empty</p>
-          <p className="text-gray-600">You can go to the home page to view more restaurants.</p>
+          <p className="text-gray-600 text-center">You can go to the home page to view more restaurants.</p>
           <button className='bg-yellow-300 m-5 p-2 rounded-md'><a href=""> Browse more </a></button>
         </div>
      

@@ -1,53 +1,59 @@
-import React from 'react'
+import React from 'react';
 
 function Login() {
   return (
-    <div className="flex justify-center items-center min-h-screen rounded-md bg-gray-100">
-      <div className="flex align-center bg-white shadow-lg rounded-md overflow-hidden">
-       
-        <div className="left w-96 bg-white h-96  p-5 flex flex-col ">
-          <h1 className="text-center text-xl font-bold mb-4">Login to your account</h1>
+    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+      <div className="flex bg-white shadow-2xl rounded-lg overflow-hidden">
 
-          <div className="container flex flex-col p-2">
-            <label htmlFor="username">Username</label>
+        {/* Form Section */}
+        <div className="left w-96 bg-white h-auto p-8 flex flex-col justify-center">
+          <h1 className="text-center text-2xl font-bold text-gray-800 mb-6">Login to your account</h1>
+
+          <div className="flex flex-col mb-5">
+            <label htmlFor="username" className="mb-2 text-gray-700">Username</label>
             <input
-              className="bg-white border-b p-2 focus:outline-none focus:ring-0 focus:border-gray-500 border-b border-gray-300"
+              className="bg-gray-100 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 p-3"
               type="text"
               id="username"
+              placeholder="Enter your username"
             />
           </div>
 
-          <div className="container flex flex-col p-2">
-            <label htmlFor="password">Password</label>
+          <div className="flex flex-col mb-5">
+            <label htmlFor="password" className="mb-2 text-gray-700">Password</label>
             <input
-              className="bg-transparent border-b p-2 focus:outline-none focus:ring-0 focus:border-gray-500 border-b border-gray-300"
+              className="bg-gray-100 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 p-3"
               type="password"
               id="password"
+              placeholder="Enter your password"
             />
           </div>
 
-          <div className="flex justify-center my-4">
-            <button className="bg-blue-200 px-4 py-2 rounded-md">Login</button>
+          <div className="flex justify-center mb-6">
+            <button className="bg-blue-500 text-white px-6 py-3 rounded-md shadow-lg hover:bg-blue-600 transition-colors">
+              Login
+            </button>
           </div>
 
-          <div className=" p-2">
-            <div className="flex items-center">
-            <p>Dont have a account? <a href="/sigin">Signup for free!</a></p>
-            </div>
-            <a href="#" className="text-blue-500">Forgot password?</a>
+          <div className="flex justify-between items-center">
+            <p className="text-gray-600">
+              Don't have an account? <a href="#" className="text-blue-500 hover:underline">Signup for free!</a>
+            </p>
+            <a href="#" className="text-blue-500 hover:underline">Forgot password?</a>
           </div>
         </div>
 
+        {/* Image Section */}
         <div className="right w-96">
           <img
             src="https://norecipes.com/wp-content/uploads/2017/05/chicken-biryani-006.jpg"
             alt="Delicious food"
-            className="object-cover h-full w-full"
+            className="object-cover h-full w-full rounded-r-lg"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
