@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Login from '../src/components/Login'
-import Signin from '../src/components/Signin'
-import Cart from '../src/components/Cart'
+import Login from '../src/components/auth/Login'
+import Signin from '../src/components/auth/Signin'
+import Cart from '../src/components/layout/Cart'
 
 const Router = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faIndianRupeeSign } from '@fortawesome/free-solid-svg-icons';
-import { data } from '../../public/restaurants.json'; 
+
 function ResCard() {
 
 
@@ -9,7 +9,7 @@ function ResCard() {
     <div className='bg-white p-4 sm:p-6 rounded-lg shadow-lg flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 max-w-4xl mx-auto'>
       
       <div className="flex-1 mb-4 sm:mb-0">
-        <h1 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">{data.name}</h1>
+        <h1 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">name</h1>
         <h2 className="text-lg sm:text-xl font-semibold text-gray-600 mb-1">
           <FontAwesomeIcon icon={faIndianRupeeSign} style={{color: "#4b5563", height:"19px", marginRight: '0.5rem'}} /> 
           250

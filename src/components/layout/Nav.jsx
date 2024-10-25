@@ -7,7 +7,7 @@ function Nav() {
   
   
   return (
-    <div className='main-nav w-[90%]  top-0 left-0 right-0 rounded-bl-xl rounded-br-xl mx-auto bg-zinc-100 shadow-md '>
+    <div className='main-nav w-[90%] sticky z-50 top-0 left-0 right-0 rounded-bl-xl rounded-br-xl mx-auto bg-zinc-100 shadow-md '>
       <div className="container-nav h-16 mx-5 flex justify-between items-center relative">
         
       
@@ -35,7 +35,7 @@ function Nav() {
           <button >hii</button>
          <a href='' className='text-black'>Cart </a>
           </Link>
-         <Link to='/signup'>
+         <Link to='/signin'>
           <i className="bg-black text-xl p-2 text-white rounded-full ri-user-fill w-10 h-10 flex items-center justify-center"></i>
           </Link>
         </div>

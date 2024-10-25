@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
-import data from '../../public/restaurants.json';
+import data from '../../../public/restaurants.json';
 
 function Restaurant() {
   const [info, setInfo] = useState(null);

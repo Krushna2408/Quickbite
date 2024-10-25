@@ -6,7 +6,7 @@ function Dishes() {
     <h1 className='mx-7 text-xl text-gray-00'>Search dishes</h1>
     
 
-      {/* Upper Row */}
+      
       <div className="flex flex-row flex-wrap justify-center">
         <div className="container-dishes">
             <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png" alt="Pizza" />
@@ -38,7 +38,7 @@ function Dishes() {
     
       </div>
 
-      {/* Lower Row */}
+     
       <div className="flex flex-row flex-wrap justify-center mt-4">
         <div className="container-dishes">
             <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png" alt="Pizza" />
