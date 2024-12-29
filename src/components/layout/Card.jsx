@@ -17,18 +17,15 @@ function Card() {
         <div className="p-4 text-center">
           <h1 className="text-lg font-bold text-gray-900 mb-2">Name</h1>
 
-          <div className="flex items-center justify-center text-yellow-500 space-x-1 mb-3">
-          <h2 className=" font-semibold  mb-1">Ratings:
-          <FontAwesomeIcon icon={faStar} style={{color: "#eab308", height:"15px", marginRight: '0.5rem'}} /> 
-          15-20 min
-        </h2>
-          </div>
+          <div className="flex items-center justify-between text-yellow-500 mb-3">
+  <span className="font-semibold mb-1 flex items-center justify-center">
+    <FontAwesomeIcon icon={faStar} style={{ color: "#267e3e", height: "12px", marginRight: '0.5rem' }} />
+    4.5
+  </span>
+  <span className="ml-2">15-20 min</span>
+</div>
 
           <p className="text-gray-700 text-sm mb-4">Biryani, Chicken, Tandoori Chicken</p>
-
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-blue-700">
-            Order Now
-          </button>
         </div>
       </div>
     </>
