@@ -5,7 +5,7 @@ import 'swiper/css/autoplay';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import '../../../';
+
 
 const Homefoodscroll = () => {
   const dishes = [
@@ -44,8 +44,8 @@ const Homefoodscroll = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center mt-[12vh]">
-      <Swiper
+    <div className="flex w-[90%] mx-auto bg-white flex-wrap justify-center mt-[7vh] ">
+      <Swiper 
         slidesPerView={dishes.length - 1}
         loop={true}
         autoplay={{

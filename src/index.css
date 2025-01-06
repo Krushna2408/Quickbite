@@ -17,7 +17,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   font-family: gilroy;
+   font-family: sans-serif;
    
 
 }
@@ -25,13 +25,3 @@
 
 
 
-.container-dishes{
-    height:150px;
-    width:150px;
-  
-}
-.container-dishes img{
-    height:100%;
-    width:100%;
- 
-}
